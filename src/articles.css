@@ -1,0 +1,9 @@
+.articleCard{
+    border: none;
+box-shadow: none;
+margin-bottom: 20px;
+margin-left: 10%;
+margin-right: 10%;
+font-size: 14px;
+border: 1px solid cadetblue;
+}

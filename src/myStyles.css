@@ -1,0 +1,4 @@
+.fonts{
+    font-family: 'Myfonts';
+    src: local('Myfonts'),url('./fonts/TCM.TTF') format('ttf');
+}
