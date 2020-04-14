@@ -18,7 +18,7 @@ export default class NavComponent extends Component{
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto" style={{color:"#5F9EA0", paddingLeft:"50px"}}>
-      <Nav.Link href="/articles" style={{color:"#5F9EA0", paddingRight:"30px"}}>Articles</Nav.Link>
+      <Nav.Link href="/articles" onClick={this.gotoArticles=()=>{history.push('/articles')}} style={{color:"#5F9EA0", paddingRight:"30px"}}>Articles</Nav.Link>
       <Nav.Link href="/findfit" style={{color:"#5F9EA0",  paddingRight:"30px"}}>Find fit</Nav.Link>
       <Nav.Link href="/events" style={{color:"#5F9EA0"}}>Events</Nav.Link>
     </Nav>
